@@ -53,7 +53,7 @@ const Header = () => {
               {link.title}
             </Link>
           ))}
-        {/* <ThemeSwitch /> */}
+        <ThemeSwitch />
         <MobileNav />
       </div>
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
