@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
+  title: "Instarem's Engineering Blog",
+  author: 'Vivek Krishna',
   headerTitle: 'TailwindBlog',
   description: 'Engineering Excellence | SRE Best Practices | Dev Optimizations',
   language: 'en-us',
