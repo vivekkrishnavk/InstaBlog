@@ -27,7 +27,7 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-3">
                 <article>
-                  <div className="rounded-2xl h-60 shadow-md px-5 py-9 flex flex-row">
+                  <div className="rounded-2xl shadow-md px-5 py-9 flex flex-row">
                     <Image
                       alt={title}
                       src={thumbnail}
@@ -35,7 +35,7 @@ export default function Home({ posts }) {
                       width={168}
                       height={168}
                     ></Image>
-                    <div className="flex flex-col justify-center mx-[32px]">
+                    <div className="flex flex-col justify-center mx-8">
                       <dl>
                         <dt className="sr-only">Published on</dt>
                         <dd className="font-medium leading-6 text-gray-500 dark:text-gray-400 text-xs">
@@ -61,7 +61,7 @@ export default function Home({ posts }) {
                           <Tag key={tag} text={tag} />
                         ))}
                       </div>
-                      <div className="max-w-none text-neutral-700 text-sm mt-[16px]">{summary}</div>
+                      <div className="max-w-none text-neutral-700 text-sm mt-4">{summary}</div>
                     </div>
                   </div>
                 </article>
