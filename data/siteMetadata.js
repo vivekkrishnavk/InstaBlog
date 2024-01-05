@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "Instarem's Engineering Blog",
-  author: 'Vivek Krishna',
+  title: 'Instarem Engineering Blog',
+  author: 'Instarem',
   headerTitle: 'TailwindBlog',
   description: 'Engineering Excellence | SRE Best Practices | Dev Optimizations',
   language: 'en-us',
